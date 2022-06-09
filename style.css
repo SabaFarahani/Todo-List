@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Square Peg", cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FAD9E6;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 50px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+#addTask {
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    margin-right: 20px;
+}
+
+#addButton {
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    background-color: #243D25;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+}
+
+main {
+    width: 100%;
+    margin-top: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+section h2 {
+    font-size: 3rem;
+}
+
+#task-container{
+    margin-top: 10px;
+}
+
+.tasks {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content {
+    margin: 0 20px;
+}
+
+.text {
+    font-size: 1.5rem;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    width: 500px;
+    padding: 10px 20px;
+    background-color: #E4AEC5;
+    color: #000000;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        width: 300px;
+    }
+
+    #addTask {
+        width: 400px;
+    }
+}
+
+.edit {
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    background-color: #5F7464;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 12px;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.delete {
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    background-color: #5F7464;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 12px;
+    font-size: 1.5rem;
+    margin: 5px;
+}
